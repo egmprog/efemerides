@@ -1,3 +1,0 @@
-Juan,25
-María,30
-Pedro,28

@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+
 <?php
 $cont=0;
 $encontrado=false;
 $impresos=array();
 $impresos2=array();
-$archivo_txt = 'datos3.txt';
+$archivo_txt = 'datos.txt';
 
 // Verificar si el archivo existe
 if (file_exists($archivo_txt)) {
@@ -71,3 +82,6 @@ if (file_exists($archivo_txt)) {
 } else {
     die('El archivo no existe.');
 }
+?>
+</body>
+</html>
