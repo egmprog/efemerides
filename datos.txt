@@ -1,0 +1,4 @@
+{
+   "nombres": ["Juan", "María", "Pedro", "Miguel"],
+   "edades": [25, 30, 28]
+}
